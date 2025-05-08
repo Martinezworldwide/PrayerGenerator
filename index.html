@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Prayer Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🙏 Daily Prayer Generator</h1>
+
+    <label for="theme">Choose a Prayer Theme:</label>
+    <select id="theme">
+      <option value="protection">Protection</option>
+      <option value="gratitude">Gratitude</option>
+      <option value="healing">Healing</option>
+      <option value="warfare">Spiritual Warfare</option>
+      <option value="guidance">Guidance</option>
+    </select>
+
+    <button onclick="generatePrayer()">Generate Prayer</button>
+
+    <div id="prayer-output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
